@@ -27,6 +27,7 @@ button {
     flex-direction: column;
     width: 960px;
     height: 960px;
+    border: dashed black 1px;
 }
 
 /* TODO: Change to use rows */
@@ -36,6 +37,5 @@ button {
 }
 
 .row div {
-    border: dashed black 1px;
     flex: 1;
 }
