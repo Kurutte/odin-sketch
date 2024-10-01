@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    flex-wrap: wrap;
+    flex: none;
+    width: 960px;
+}
+
+/* TODO: Change to use rows */
+.grid div {
+    border: dashed black 1px;
+    width: 55px;
+    height: 55px;
+}
